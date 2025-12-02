@@ -1,0 +1,1 @@
+export class StoryService{async createStory(){return {id:'demo'}}}

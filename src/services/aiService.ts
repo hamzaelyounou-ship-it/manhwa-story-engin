@@ -1,0 +1,1 @@
+export const AVAILABLE_MODELS={openrouter:[{id:'anthropic/claude-3-5-sonnet',name:'Claude 3.5'}]};

@@ -1,0 +1,28 @@
+{
+  "name": "manhwa-story-engine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start-server": "node api/index.js",
+    "start": "concurrently \"npm run dev\" \"npm run start-server\""
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.86.0",
+    "axios": "^1.6.8",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "concurrently": "^8.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^3.1.0"
+  }
+}
