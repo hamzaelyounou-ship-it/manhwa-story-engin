@@ -1,1 +1,23 @@
-body{background:#0b1220;color:white;font-family:Arial}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark text-white font-sans;
+}
+
+.world-card {
+  @apply bg-panel rounded-xl p-4 cursor-pointer border border-white/5 hover:border-accent transition-all duration-200 hover:scale-[1.02];
+}
+
+.btn-primary {
+  @apply bg-accent text-black px-4 py-2 rounded-lg font-semibold hover:bg-green-300 transition;
+}
+
+.input-style {
+  @apply w-full bg-panel border border-white/10 rounded-lg px-3 py-2 text-white placeholder-gray-400;
+}
+
+.panel {
+  @apply bg-panel rounded-xl p-4 border border-white/5;
+}
